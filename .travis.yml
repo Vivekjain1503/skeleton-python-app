@@ -8,4 +8,7 @@ install:
 script:
   - pytest queryprocessortest.py
 deploy:
-  dc2b1913-2b4a-4361-8ae5-7c72981c083d
+  provider: heroku
+  api_key:
+    secure: dc2b1913-2b4a-4361-8ae5-7c72981c083d
+  app: mysterious-reaches-24898
