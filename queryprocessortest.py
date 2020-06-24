@@ -10,4 +10,4 @@ def test_returns_empty_string_if_cannot_process_query():
 	assert process_query("xxxx") == ""
 
 def test_largest():
-	assert process_query("which is largest : 101,102,103") == "103"
+	assert process_query("which : is largest : 101,102,103") == "103"
