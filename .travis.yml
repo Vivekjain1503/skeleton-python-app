@@ -7,3 +7,5 @@ install:
 # command to run tests
 script:
   - pytest queryprocessortest.py
+deploy:
+  dc2b1913-2b4a-4361-8ae5-7c72981c083d
