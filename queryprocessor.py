@@ -23,7 +23,7 @@ def process_query(query):
 		num2 = int(query.split()[-4])
 		# print(num1,num2)
 		return str(num1*num2)
-	if ("both a square and a cube"):
+	if ("both a square and a cube" in query.lower()):
 		nums = query.split(":")[2].strip()
 		nums = nums.split(",")
 		print(nums)
@@ -36,6 +36,14 @@ def process_query(query):
 			y = int(round(y))
 			ans = True
 			if x**3 == a and y**2 == a:
+				return str(a)
+	if ("primes" in query.lower()):
+		nums = query.split(":")[2].strip()
+		nums = nums.split(",")
+		# print(nums)
+		a = 0
+		for num in nums:
+			
 				return str(a)
 	return ""
 
