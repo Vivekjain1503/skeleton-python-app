@@ -20,6 +20,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,5 +34,15 @@
       <updated>1592979142105</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="187" key="FileChooserDialogImpl" timestamp="1592985892249">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="548" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1592985892249" />
+    <state x="277" y="77" key="SettingsEditor" timestamp="1592986060729">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592986060729" />
   </component>
 </project>
