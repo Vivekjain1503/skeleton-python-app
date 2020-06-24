@@ -9,7 +9,7 @@ def process_query(query):
 		# print(num1,num2)
 		return str(num1+num2)
 	if ("largest" in query.lower()):
-		nums = query.split(":")[1].trim()
+		nums = query.split(":")[1].strip()
 		nums = nums.split(",")
 		a = 0
 		for num in nums:
