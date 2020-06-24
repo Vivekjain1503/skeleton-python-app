@@ -3,6 +3,6 @@ def process_query(query):
 		return "Vivek"
 	if ("romeo and juliet" in query.lower()):
 		return "William Shakespeare is not the answer"
-	if ("email" in query.lower()):
-		return "vivek-c.jain@db.com"
+	if ("what is 2018 plus 5" in query.lower()):
+		return "2023"
 	return ""
