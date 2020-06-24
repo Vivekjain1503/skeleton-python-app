@@ -17,6 +17,12 @@ def process_query(query):
 			if int(num) > a :
 				a = int(num)
 		return str(a)
+
+	if ("multiplied" in query.lower()):
+		num1 = int(query.split()[-1])
+		num2 = int(query.split()[-4])
+		# print(num1,num2)
+		return str(num1*num2)
 	return ""
 
 # print(process_query("what is 20 plus 5"))

@@ -11,3 +11,6 @@ def test_returns_empty_string_if_cannot_process_query():
 
 def test_largest():
 	assert process_query("which : is largest : 101,102,103") == "103"
+
+def test_multiply():
+	assert process_query("what is 2 multiplied by 3") == "6"
