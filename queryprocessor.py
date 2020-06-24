@@ -3,6 +3,8 @@ def process_query(query):
 		return "Vivek"
 	if ("romeo and juliet" in query.lower()):
 		return "William Shakespeare is not the answer"
-	if ("what is 2018 plus 5" in query.lower()):
-		return "2023"
+	if ("plus" in query.lower()):
+		num1 = int(query.split()[2])
+		num2 = int(query.split()[4])
+		return str(num1+num2)
 	return ""
