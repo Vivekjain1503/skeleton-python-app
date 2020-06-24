@@ -37,14 +37,13 @@ def process_query(query):
 			ans = True
 			if x**3 == a and y**2 == a:
 				return str(a)
-	if ("primes" in query.lower()):
-		nums = query.split(":")[2].strip()
-		nums = nums.split(",")
-		# print(nums)
-		a = 0
-		for num in nums:
-			
-				return str(a)
+	# if ("primes" in query.lower()):
+	# 	nums = query.split(":")[2].strip()
+	# 	nums = nums.split(",")
+	# 	# print(nums)
+	# 	a = 0
+	# 	for num in nums:
+	# 		return str(a)
 	return ""
 
 # print(process_query("what is 20 plus 5"))
